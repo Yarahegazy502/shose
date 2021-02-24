@@ -178,3 +178,15 @@ section{
  
   
 /* end product */
+@media(max-width:600px){
+    .product-item{
+        display: grid;
+    }
+    .product-item img {
+        width: 115%;
+        margin-top: 0;
+    }
+    .product-title {
+        font-size: 43px;
+    }
+}
